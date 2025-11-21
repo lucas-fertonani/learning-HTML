@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+   </head>
+   <body>
+      <!-- How to use formulary in HTML! -->
+
+      <form action="learning_HTML.php">
+         <div>
+            <label for="Emails"> Email:</label>
+            <input type="email" id="email" name="email"
+               placeholder="example@gmail.com" />
+         </div>
+
+         <br>
+
+         <div>
+            <label for="Birth"> Birth:</label>
+            <input type="birth" id="birth" name="birth"
+               placeholder="2005/10/02" />
+         </div>
+
+         <br>
+
+         <div>
+
+            <!-- Input de senhas-->
+            <label for="Password"> Password:</label>
+            <input type="password" id="password" name="password"
+               maxlength="3">
+
+            <!-- maxlenght vai definir um tamanho especifico de caracteres que voce pode colocar no input-->
+            <!--max vai definir o máximo de um tamanho especifico de caracteres que voce pode colocar no input-->
+            <!--max vai definir o minimo de um tamanho especifico de caracteres que voce pode colocar no input-->
+
+         </div>
+
+         <div>
+
+            <!-- Criar botões de alternativas-->
+            <label>Masculino</label>
+            <input type="radio">
+
+            <label>Feminino</label>
+            <input type="radio">
+
+            <label>Prefiro não dizer</label>
+            <input type="radio">
+         </div>
+
+         <br>
+
+         <button>
+            <input type="reset">
+         </button>
+
+         <br>
+
+         <button>
+            <input type="submit" />
+         </button>
+
+         <div>
+            <label for="instrument">Instrument</label>
+            <select id="instrument" name="instrument">
+               <option value="guitar">guitar</option>
+               <option value="piano">gu</option>
+               <option value="guitar">guitar</option>
+            </select>
+         </div>
+
+         <div>
+            <label for="Javascript">Code:</label>
+         </div>
+
+         <!-- Ha um atributo chamado "method='' dois valores comuns que são usado sao GET e POST-->
+         <!-- GET ele anexarerá seu dados na url adicionará um '?' e depois todos os seus dados colocados-->
+         <!--Pra enviar dados a alguma pagina usaremos o 'action' e a URL-->
+         <!-- <placeholder> e o string que vai ficar sobre exemplo o que voce tem colocar sobre o input do HTML-->
+         <!-- <label> e o rotulo do comando que eu vou receber as informações-->
+         <!-- required atributo obrigatório booleano usado para o usuario preencher todos os inputs se voce nao colocar ele reclamará -->
+         <!-- o <input> vai receber alguns atributos com id,name e placeholder-->
+      </form>
+   </body>
+</html>
